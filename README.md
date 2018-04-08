@@ -1,6 +1,7 @@
 # the-nest-htmlcss
 
-The final HTML files may be found in the "outputs" sub-directory.
+## Quick start
+Open "index.html" or any other HTML files in the home direcotry to begin.
 
-# Regeneration
-To regenerate the partials into full HTML pages, in the base directory, run: `gulp nunchucks` on the terminal.
+## Refresh
+To refresh and get the most updated HTML files run: `gulp nunchucks` in the home directory.
