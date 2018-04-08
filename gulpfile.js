@@ -8,6 +8,5 @@ gulp.task('nunjucks', function() {
   .pipe(nunjucksRender({
       path: ['templates']
     }))
-  // output files in app folder
-  .pipe(gulp.dest('outputs'))
+  .pipe(gulp.dest('.'))
 });
