@@ -34,6 +34,8 @@ html, body {
 .section-link, .app-link {
 	padding: 5px 35px 5px 50px;
 	margin-bottom: 5px;
+	display: inline-block;
+	text-decoration: none;
 }
 
 .section-link.selected {
