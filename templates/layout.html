@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome to theNest</title>
+	<link rel="stylesheet" href="../app/assets/css/main.css">
+</head>
+<body>
+	<div id="app">
+		<div class="sidebar" style="">
+			<div class="sidebar-header">the<b>Nest</b></div>
+
+			<div class="section-links">
+				<div class="section-link selected">Dashboard</div>
+				<div class="section-link">Colleges</div>
+				<div class="section-link">Departments</div>
+				<div class="section-link">Programmes</div>
+				<div class="section-link">Users</div>
+			</div>
+
+			<div class="app-links">
+				<div class="app-link">Settings</div>
+				<div class="app-link">User roles and permissions</div>
+				<div class="app-link">Admin passwords</div>
+			</div>
+
+			<div class="app-icon">
+				CDC
+			</div>
+		</div>
+
+		<div class="header" style="">
+			<div class="logout">Logout</div>
+
+			<div class="header-user">
+				<div class="header-user-icon"></div>
+				<div class="header-user-name">Olusesan Peter</div>
+
+				<div class="clear"></div>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+		
+		<div class="main" style="">
+
+			{% block content %} {% endblock %}
+		
+		</div>
+	</div>
+</body>
+</html>

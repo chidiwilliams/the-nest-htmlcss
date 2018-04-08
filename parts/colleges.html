@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<div class="header-title">
+		<div class="page-name">Colleges</div>
+	</div>
+	
+	<div class="content">
+		<a class="content-action btn-dark" href="#">Create new college</a>
+		
+		<table>
+			<tr>
+				<th>College</th>
+				<th>No. of departments</th>
+				<th>No. of programmes</th>
+				<th>No. of students</th>
+			</tr>
+			<tr>
+				<td><span class="college-name">College of Engineering</span> <a class="college-name-edit" href="#">Edit</a></td>
+				<td>10</td>
+				<td>30</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td><span class="college-name">College of Science and Technology</span> <a class="college-name-edit" href="#">Edit</a></td>
+				<td>15</td>
+				<td>32</td>
+				<td>32</td>
+			</tr>
+			<tr>
+				<td><span class="college-name">College of Leadership Development Studies</span> <a class="college-name-edit" href="#">Edit</a></td>
+				<td>16</td>
+				<td>64</td>
+				<td>64</td>
+			</tr>
+			<tr>
+				<td><span class="college-name">College of Business and Strategic Studies</span> <a class="college-name-edit" href="#">Edit</a></td>
+				<td>32</td>
+				<td>54</td>
+				<td>54
+		</table>
+
+	</div>
+{% endblock %}
