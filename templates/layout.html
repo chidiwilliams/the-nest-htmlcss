@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Welcome to theNest</title>
-	<link rel="stylesheet" href="../assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 	<div id="app">
@@ -11,11 +11,11 @@
 			<div class="sidebar-header">the<b>Nest</b></div>
 
 			<div class="section-links">
-				<a class="section-link selected" href="#">Dashboard</a>
-				<a class="section-link" href="#">Colleges</a>
-				<a class="section-link" href="#">Departments</a>
-				<a class="section-link" href="#">Programmes</a>
-				<a class="section-link" href="#">Users</a>
+				<a class="section-link" href="dashboard.html">Dashboard</a>
+				<a class="section-link" href="colleges.html">Colleges</a>
+				<a class="section-link" href="departments.html">Departments</a>
+				<a class="section-link" href="programmes.html">Programmes</a>
+				<a class="section-link" href="users.html">Users</a>
 			</div>
 
 			<div class="app-links">
@@ -48,5 +48,17 @@
 		
 		</div>
 	</div>
+
+	<script>
+		var obj = document.getElementsByClassName('section-link');
+
+		for (var link in obj) {
+			if (obj.hasOwnProperty(link)) {
+				if (obj[link].href == window.location) {
+					obj[link].classList.add("selected");
+				}
+			}
+		}
+	</script>
 </body>
 </html>

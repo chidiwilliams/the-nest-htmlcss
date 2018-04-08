@@ -34,11 +34,12 @@ html, body {
 .section-link, .app-link {
 	padding: 5px 35px 5px 50px;
 	margin-bottom: 5px;
-	display: inline-block;
+	display: block;
 	text-decoration: none;
+	color: inherit;
 }
 
-.section-link.selected {
+.section-link.selected, .app-link.selected, .section-link:hover, .app-link:hover  {
     border-left: 4px solid #510D9A;
     padding-left: 46px;
     font-weight: bold;
